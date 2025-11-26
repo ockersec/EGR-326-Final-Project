@@ -12,8 +12,10 @@
 #include <stm32f446xx.h>
 #include <stdint.h>
 
-/* Function declarations */
+/* Global variable */
+#define BAUD_RATE 9600
 
+/* Function declarations */
 /** * 
  * @brief Initializes USART2 peripheral for serial communication
  * @details Enables GPIOA/USART2 clocks, configures PA2(TX)/PA3(RX), and sets baud rate
