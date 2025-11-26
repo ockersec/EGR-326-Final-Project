@@ -12,11 +12,7 @@
 #include <stm32f446xx.h>
 #include <stdint.h>
 
-/* Constants */
-#define CLOCK_FREQUENCY 16000000U
-
 /* Function declarations */
-
 /**
  * @brief Initializes TIM1_CH1 on PA8 50% duty cycle
  */
