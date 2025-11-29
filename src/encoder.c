@@ -25,7 +25,7 @@ void ENCODER_INIT(void){
     
     // TIM4 Config
     TIM4->CR1 = 0;
-    TIM4->SMCR |= (3 << 0); // Encoder Mode 3
+    TIM4->SMCR |= (1 << 0); // Encoder Mode 1
     TIM4->CCMR1 |= (1 << 0) | (1 << 8); // Map TI1/TI2
     TIM4->ARR = 0xFFFF;
     TIM4->CR1 |= (1 << 0); // Enable Timer
